@@ -172,7 +172,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 342fd46c87067284b9554db4af60c79c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 2
+  enemyData: {fileID: 11400000, guid: b98a560f74f9bc846944a5306dc75bdb, type: 2}
+  moveDir: {x: 0, y: 0}
 --- !u!95 &6981379302435193962
 Animator:
   serializedVersion: 5
