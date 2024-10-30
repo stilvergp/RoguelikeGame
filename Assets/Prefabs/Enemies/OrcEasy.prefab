@@ -14,6 +14,8 @@ GameObject:
   - component: {fileID: 6556155138115406444}
   - component: {fileID: 5137025359505005906}
   - component: {fileID: 5808828393151594800}
+  - component: {fileID: -8181952086596339629}
+  - component: {fileID: 6003269427762379664}
   m_Layer: 0
   m_Name: OrcEasy
   m_TagString: Enemy
@@ -195,3 +197,38 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &-8181952086596339629
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7209951542389607828}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c557a6767bb9e824ba1e906610f89234, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyData: {fileID: 11400000, guid: a5d1ae7443ce6fb48bbc65bd667b85b8, type: 2}
+--- !u!114 &6003269427762379664
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7209951542389607828}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa72dc6bd46301c44839ee433c958571, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  drops:
+  - name: PinkGem
+    itemPrefab: {fileID: 1511005292925470586, guid: 921bcb9e9065de44ca0a6b38ef680721, type: 3}
+    dropRate: 50
+  - name: OrangeGem
+    itemPrefab: {fileID: 8563022317219571772, guid: 544c1f525f2af01498232c7d3da3f660, type: 3}
+    dropRate: 25
+  - name: BlueGem
+    itemPrefab: {fileID: 8571121477237905824, guid: a2542146ce80ec54b8c761cf76529ad1, type: 3}
+    dropRate: 5

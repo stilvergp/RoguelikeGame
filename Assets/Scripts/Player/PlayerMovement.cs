@@ -5,8 +5,7 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
 
-    public float moveSpeed;
-    Rigidbody2D rb;
+    
     [HideInInspector]
     public float lastHorizontalVector;
     [HideInInspector]
@@ -16,11 +15,15 @@ public class PlayerMovement : MonoBehaviour
     [HideInInspector]
     public Vector2 moveDir;
 
+    Rigidbody2D rb;
+    PlayerStats player;
+
     private Animator animator;
 
 
     void Start()
     {
+        player = GetComponent<PlayerStats>();
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         lastMovedVector = new Vector2(1, 0f);
@@ -67,7 +70,7 @@ public class PlayerMovement : MonoBehaviour
 
     void Move()
     {
-        rb.velocity = new Vector2(moveDir.x * moveSpeed, moveDir.y * moveSpeed);
+        rb.velocity = new Vector2(moveDir.x * player.currentMoveSpeed, moveDir.y * player.currentMoveSpeed);
     }
 
 

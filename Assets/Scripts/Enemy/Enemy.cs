@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    public EnemyScriptableObject enemyData;
+    EnemyStats enemy;
 
     [HideInInspector]
     public Vector2 moveDir;
@@ -13,17 +13,16 @@ public class Enemy : MonoBehaviour
 
     void Start()
     {
+        enemy = GetComponent<EnemyStats>();
         player = FindObjectOfType<PlayerMovement>().transform;
         animator = GetComponent<Animator>();
-
-        Physics2D.IgnoreCollision(GetComponent<Collider2D>(), player.GetComponent<Collider2D>());
     }
 
     void Update()
     {
         Vector2 direction = (player.position - transform.position).normalized;
 
-        transform.position = Vector2.MoveTowards(transform.position, player.transform.position, enemyData.moveSpeed * Time.deltaTime);
+        transform.position = Vector2.MoveTowards(transform.position, player.transform.position, enemy.currentMoveSpeed * Time.deltaTime);
 
         animator.SetFloat("Horizontal", direction.x);
         animator.SetFloat("Vertical", direction.y);

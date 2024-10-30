@@ -11,9 +11,11 @@ GameObject:
   - component: {fileID: 4427127932698301102}
   - component: {fileID: 5960044760818922815}
   - component: {fileID: 7047769450341854732}
+  - component: {fileID: 7029417125019446097}
+  - component: {fileID: 8846656802625550588}
   m_Layer: 0
   m_Name: Outdoor_Decor_Free_40
-  m_TagString: Untagged
+  m_TagString: Prop
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -130,3 +132,35 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.6037636, y: 0.331563}
   m_EdgeRadius: 0
+--- !u!114 &7029417125019446097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 421529614832159250}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a55ceda002cfc7f4eb8a10bda9da286e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 10
+--- !u!114 &8846656802625550588
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 421529614832159250}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa72dc6bd46301c44839ee433c958571, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  drops:
+  - name: SmallPot
+    itemPrefab: {fileID: 1485459518591721856, guid: 8988006f594d27c47934898dcc9a4bd2, type: 3}
+    dropRate: 50
+  - name: BigPot
+    itemPrefab: {fileID: 8307427037610169054, guid: 649a7918e7e7e3e4cbce3a23f3aad582, type: 3}
+    dropRate: 15

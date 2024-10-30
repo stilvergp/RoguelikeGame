@@ -14,6 +14,8 @@ GameObject:
   - component: {fileID: 8248557140035916846}
   - component: {fileID: 4197000547237514781}
   - component: {fileID: 6981379302435193962}
+  - component: {fileID: 6338924169002651689}
+  - component: {fileID: -1379054463504071574}
   m_Layer: 0
   m_Name: OrcHard
   m_TagString: Enemy
@@ -195,3 +197,28 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &6338924169002651689
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2313887133183187364}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c557a6767bb9e824ba1e906610f89234, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyData: {fileID: 11400000, guid: b98a560f74f9bc846944a5306dc75bdb, type: 2}
+--- !u!114 &-1379054463504071574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2313887133183187364}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa72dc6bd46301c44839ee433c958571, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

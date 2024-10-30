@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Orc Easy
   m_EditorClassIdentifier: 
   moveSpeed: 3
-  maxHealth: 50
-  damage: 10
+  maxHealth: 25
+  damage: 15

@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 6647445218411700708}
   - component: {fileID: 4185522434446447285}
   - component: {fileID: 3001025849819159638}
+  - component: {fileID: 6406255059242817004}
   m_Layer: 0
   m_Name: Blade
   m_TagString: Untagged
@@ -100,3 +101,38 @@ MonoBehaviour:
   weaponData: {fileID: 11400000, guid: c438880fe3636ee4e9966d2e1095bfc8, type: 2}
   destroyAfterSeconds: 2
   rotationSpeed: 100
+--- !u!58 &6406255059242817004
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3772517042032977914}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.734375

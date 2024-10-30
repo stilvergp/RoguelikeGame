@@ -122,6 +122,67 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &69310245
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3999417001516238263, guid: 21aa2a99baeae424fb2059bc8b1e9760, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.1368234
+      objectReference: {fileID: 0}
+    - target: {fileID: 3999417001516238263, guid: 21aa2a99baeae424fb2059bc8b1e9760, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4.8569584
+      objectReference: {fileID: 0}
+    - target: {fileID: 3999417001516238263, guid: 21aa2a99baeae424fb2059bc8b1e9760, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -9.876305
+      objectReference: {fileID: 0}
+    - target: {fileID: 3999417001516238263, guid: 21aa2a99baeae424fb2059bc8b1e9760, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3999417001516238263, guid: 21aa2a99baeae424fb2059bc8b1e9760, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3999417001516238263, guid: 21aa2a99baeae424fb2059bc8b1e9760, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3999417001516238263, guid: 21aa2a99baeae424fb2059bc8b1e9760, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3999417001516238263, guid: 21aa2a99baeae424fb2059bc8b1e9760, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3999417001516238263, guid: 21aa2a99baeae424fb2059bc8b1e9760, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3999417001516238263, guid: 21aa2a99baeae424fb2059bc8b1e9760, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5137025359505005906, guid: 21aa2a99baeae424fb2059bc8b1e9760, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7209951542389607828, guid: 21aa2a99baeae424fb2059bc8b1e9760, type: 3}
+      propertyPath: m_Name
+      value: OrcEasy
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 21aa2a99baeae424fb2059bc8b1e9760, type: 3}
 --- !u!1 &243223249
 GameObject:
   m_ObjectHideFlags: 0
@@ -135,6 +196,8 @@ GameObject:
   - component: {fileID: 243223251}
   - component: {fileID: 243223250}
   - component: {fileID: 243223256}
+  - component: {fileID: 243223257}
+  - component: {fileID: 243223258}
   - component: {fileID: 243223255}
   m_Layer: 0
   m_Name: Player
@@ -317,11 +380,45 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a5b9c8c6b35e0549a349f329a3793e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 5
   lastHorizontalVector: 0
   lastVerticalVector: 0
   lastMovedVector: {x: 0, y: 0}
   moveDir: {x: 0, y: 0}
+--- !u!114 &243223257
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 243223249}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f29dd6e88716664dbc8210da8332858, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterData: {fileID: 11400000, guid: 86d89ee84222ecb44bb69385285ca035, type: 2}
+  currentHealth: 0
+  currentRecovery: 0
+  currentMoveSpeed: 0
+  currentMight: 0
+  currentProjectileSpeed: 0
+  experience: 0
+  level: 1
+  experienceCap: 100
+  experienceCapIncrease: 100
+  invincibilityDuration: 0.5
+--- !u!114 &243223258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 243223249}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ab84471873508f44835cd6f75a46275, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &254191354
 GameObject:
   m_ObjectHideFlags: 0
@@ -907,3 +1004,4 @@ SceneRoots:
   - {fileID: 1444080594}
   - {fileID: 254191356}
   - {fileID: 7978889060361221434}
+  - {fileID: 69310245}

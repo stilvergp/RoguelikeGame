@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 1450947918406390245}
   - component: {fileID: 2841417510560931301}
   - component: {fileID: -494489522973660528}
+  - component: {fileID: 3952461515172428478}
+  - component: {fileID: 1655623005227201370}
   m_Layer: 0
   m_Name: Knife
   m_TagString: Untagged
@@ -99,3 +101,88 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   weaponData: {fileID: 11400000, guid: 466061af5ffe7194595d7772d069356e, type: 2}
   destroyAfterSeconds: 3
+--- !u!60 &3952461515172428478
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4605804465292396045}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.71875, y: 0.75}
+    newSize: {x: 0.6875, y: 0.75}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.26687247, y: -0.20322606}
+      - {x: -0.3785435, y: -0.32516226}
+      - {x: -0.32225803, y: -0.3761089}
+      - {x: -0.20663725, y: -0.26437312}
+      - {x: -0.122386396, y: -0.34688672}
+      - {x: -0.074958324, y: -0.30001986}
+      - {x: -0.14659314, y: -0.23033932}
+      - {x: 0.36320877, y: 0.2580163}
+      - {x: 0.359375, y: 0.375}
+      - {x: 0.3010281, y: 0.36859983}
+      - {x: -0.22014505, y: -0.14980942}
+      - {x: -0.2899059, y: -0.090150066}
+      - {x: -0.33253935, y: -0.13127422}
+  m_UseDelaunayMesh: 0
+--- !u!50 &1655623005227201370
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4605804465292396045}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
