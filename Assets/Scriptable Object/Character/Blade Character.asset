@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9e67f9a85024fb24b8ea6bb5a85d175e, type: 3}
-  m_Name: Knife Character
+  m_Name: Blade Character
   m_EditorClassIdentifier: 
-  startingWeapon: {fileID: 168672759938514030, guid: 026108f4fd2905342b74a397605191c3, type: 3}
+  startingWeapon: {fileID: 2485240053497646230, guid: 043c703e9440cfe4fa9fe5091553666e, type: 3}
   maxHealth: 1000
   recovery: 1
   moveSpeed: 5
