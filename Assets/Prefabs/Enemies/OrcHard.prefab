@@ -212,6 +212,7 @@ MonoBehaviour:
   currentMoveSpeed: 0
   currentHealth: 0
   currentDamage: 0
+  despawnDistance: 20
 --- !u!114 &-1379054463504071574
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -224,4 +225,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa72dc6bd46301c44839ee433c958571, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  drops: []
+  drops:
+  - name: PinkGem
+    itemPrefab: {fileID: 1511005292925470586, guid: 921bcb9e9065de44ca0a6b38ef680721, type: 3}
+    dropRate: 100
+  - name: OrangeGem
+    itemPrefab: {fileID: 8563022317219571772, guid: 544c1f525f2af01498232c7d3da3f660, type: 3}
+    dropRate: 25
+  - name: BlueGem
+    itemPrefab: {fileID: 8571121477237905824, guid: a2542146ce80ec54b8c761cf76529ad1, type: 3}
+    dropRate: 15

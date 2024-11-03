@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfdd150786baeda4b82a9fae227c0420, type: 3}
+  m_Name: Blade Weapon Level 3
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 3772517042032977914, guid: 05c7b621dbd0ed34781e0aaf1244e412, type: 3}
+  damage: 5
+  speed: 0
+  cooldownDuration: 2
+  pierce: 0
+  level: 3
+  nextLevelPrefab: {fileID: 0}
+  weaponName: Cuchilla nivel 3
+  weaponDescription: Reduce el cooldown en 1 segundo
+  icon: {fileID: -703630957, guid: 06b7b3969a55b574a8d036ef0cfce1c7, type: 3}

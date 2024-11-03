@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9548b2a1dbf284440a896eb841adfd59, type: 3}
+  m_Name: Wings Passive Item
+  m_EditorClassIdentifier: 
+  multiplier: 50
+  level: 1
+  nextLevelPrefab: {fileID: 6765880502690940433, guid: 087388e1718e2e3489844880e42dcbc0, type: 3}
+  passiveItemName: Alas
+  passiveItemDescription: Aumenta  la velocidad de movimiento un 50%
+  icon: {fileID: 21300000, guid: fbf8a917ff8a39d4ebd1a438ec99ce4f, type: 3}

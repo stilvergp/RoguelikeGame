@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfdd150786baeda4b82a9fae227c0420, type: 3}
+  m_Name: Blade Weapon
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 3772517042032977914, guid: 72aa85edd63374442873aa34beb03bed, type: 3}
+  damage: 5
+  speed: 0
+  cooldownDuration: 3
+  pierce: 0
+  level: 1
+  nextLevelPrefab: {fileID: 2485240053497646230, guid: ba4c2bf3f671b4047a2e1a042150e4aa, type: 3}
+  weaponName: Cuchilla
+  weaponDescription: "Realiza da\xF1o a todos los enemigos en el area de la cuchilla"
+  icon: {fileID: -127258529, guid: 06b7b3969a55b574a8d036ef0cfce1c7, type: 3}

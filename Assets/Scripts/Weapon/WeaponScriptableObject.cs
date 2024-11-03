@@ -24,4 +24,24 @@ public class WeaponScriptableObject : ScriptableObject
     [SerializeField]
     int pierce;
     public int Pierce {get => pierce; private set => pierce = value;}
+
+    [SerializeField]
+    int level;
+    public int Level {get => level; private set => level = value;}
+
+    [SerializeField]
+    GameObject nextLevelPrefab;
+    public GameObject NextLevelPrefab {get => nextLevelPrefab; private set => nextLevelPrefab = value;}
+
+    [SerializeField]
+    string weaponName;
+    public string WeaponName {get => weaponName; private set => weaponName = value;}
+
+    [SerializeField]
+    string weaponDescription;
+    public string WeaponDescription {get => weaponDescription; private set => weaponDescription = value;}
+
+    [SerializeField]
+    Sprite icon;
+    public Sprite Icon {get => icon; private set => icon = value;}
 }
