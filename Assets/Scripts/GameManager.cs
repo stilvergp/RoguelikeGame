@@ -36,7 +36,6 @@ public class GameManager : MonoBehaviour
     public TMP_Text currentRecoveryDisplay;
     public TMP_Text currentMoveSpeedDisplay;
     public TMP_Text currentMightDisplay;
-    public TMP_Text currentProjectileSpeedDisplay;
     public TMP_Text currentMagnetDisplay;
 
     [Header("Results Screen Displays")]

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Blade Weapon
   m_EditorClassIdentifier: 
   prefab: {fileID: 3772517042032977914, guid: 72aa85edd63374442873aa34beb03bed, type: 3}
-  damage: 5
+  damage: 20
   speed: 0
   cooldownDuration: 3
   pierce: 0

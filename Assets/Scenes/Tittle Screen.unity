@@ -403,6 +403,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1591058829}
     m_Modifications:
+    - target: {fileID: -3618010906738957101, guid: a2542146ce80ec54b8c761cf76529ad1, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 304782310956563598, guid: a2542146ce80ec54b8c761cf76529ad1, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5.9505005
@@ -789,6 +793,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1591058829}
     m_Modifications:
+    - target: {fileID: -8392471724300402416, guid: 8988006f594d27c47934898dcc9a4bd2, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1485459518591721856, guid: 8988006f594d27c47934898dcc9a4bd2, type: 3}
       propertyPath: m_Name
       value: SmallHealthPotion
@@ -966,6 +974,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1591058829}
     m_Modifications:
+    - target: {fileID: -1234910916437498939, guid: 649a7918e7e7e3e4cbce3a23f3aad582, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8307427037610169054, guid: 649a7918e7e7e3e4cbce3a23f3aad582, type: 3}
       propertyPath: m_Name
       value: BigHealthPotion
@@ -1193,6 +1205,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1591058829}
     m_Modifications:
+    - target: {fileID: -8752335423776606465, guid: 544c1f525f2af01498232c7d3da3f660, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 886967809810007267, guid: 544c1f525f2af01498232c7d3da3f660, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.54
@@ -1385,6 +1401,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1591058829}
     m_Modifications:
+    - target: {fileID: -8752335423776606465, guid: 544c1f525f2af01498232c7d3da3f660, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 886967809810007267, guid: 544c1f525f2af01498232c7d3da3f660, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.09
@@ -1905,6 +1925,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1591058829}
     m_Modifications:
+    - target: {fileID: -8239581083498849281, guid: 921bcb9e9065de44ca0a6b38ef680721, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1511005292925470586, guid: 921bcb9e9065de44ca0a6b38ef680721, type: 3}
       propertyPath: m_Name
       value: PinkGem (1)
@@ -2057,6 +2081,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1591058829}
     m_Modifications:
+    - target: {fileID: -8392471724300402416, guid: 8988006f594d27c47934898dcc9a4bd2, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1485459518591721856, guid: 8988006f594d27c47934898dcc9a4bd2, type: 3}
       propertyPath: m_Name
       value: SmallHealthPotion (1)
@@ -2177,6 +2205,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1591058829}
     m_Modifications:
+    - target: {fileID: -1234910916437498939, guid: 649a7918e7e7e3e4cbce3a23f3aad582, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8307427037610169054, guid: 649a7918e7e7e3e4cbce3a23f3aad582, type: 3}
       propertyPath: m_Name
       value: BigHealthPotion (2)
@@ -2832,6 +2864,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1591058829}
     m_Modifications:
+    - target: {fileID: -3618010906738957101, guid: a2542146ce80ec54b8c761cf76529ad1, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 304782310956563598, guid: a2542146ce80ec54b8c761cf76529ad1, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.96
@@ -3086,7 +3122,7 @@ Transform:
   m_GameObject: {fileID: 2039575740}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.4221935, y: -10.550764, z: 0}
+  m_LocalPosition: {x: 6.4221935, y: -7.85, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3152,17 +3188,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1591058829}
     m_Modifications:
+    - target: {fileID: -1234910916437498939, guid: 649a7918e7e7e3e4cbce3a23f3aad582, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8307427037610169054, guid: 649a7918e7e7e3e4cbce3a23f3aad582, type: 3}
       propertyPath: m_Name
       value: BigHealthPotion (1)
       objectReference: {fileID: 0}
     - target: {fileID: 8584567196678048420, guid: 649a7918e7e7e3e4cbce3a23f3aad582, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.7286482
+      value: -2.76
       objectReference: {fileID: 0}
     - target: {fileID: 8584567196678048420, guid: 649a7918e7e7e3e4cbce3a23f3aad582, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -11.572599
+      value: -6.04
       objectReference: {fileID: 0}
     - target: {fileID: 8584567196678048420, guid: 649a7918e7e7e3e4cbce3a23f3aad582, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3349,6 +3389,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1591058829}
     m_Modifications:
+    - target: {fileID: -8239581083498849281, guid: 921bcb9e9065de44ca0a6b38ef680721, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1511005292925470586, guid: 921bcb9e9065de44ca0a6b38ef680721, type: 3}
       propertyPath: m_Name
       value: PinkGem

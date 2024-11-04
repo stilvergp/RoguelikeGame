@@ -13,13 +13,12 @@ MonoBehaviour:
   m_Name: Knife Weapon Level 3
   m_EditorClassIdentifier: 
   prefab: {fileID: 4605804465292396045, guid: 369617c46ddffe0418544100ebed9855, type: 3}
-  damage: 5
+  damage: 30
   speed: 20
   cooldownDuration: 2
   pierce: 1
   level: 3
   nextLevelPrefab: {fileID: 0}
   weaponName: Navaja nivel 3
-  weaponDescription: Aumenta su velocidad de lanzamiento por 10 puntos y reduce su
-    cooldown por 1 segundo
+  weaponDescription: "++ Da\xF1o, ++ Velocidad de lanzamiento, -- Cooldown"
   icon: {fileID: 712419185, guid: b95027dd99ef32a4bbad577654cde2e8, type: 3}

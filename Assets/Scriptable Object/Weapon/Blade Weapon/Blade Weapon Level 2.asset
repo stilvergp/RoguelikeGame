@@ -13,12 +13,12 @@ MonoBehaviour:
   m_Name: Blade Weapon Level 2
   m_EditorClassIdentifier: 
   prefab: {fileID: 3772517042032977914, guid: e49c5747aecd0ae4e9f346a812990e99, type: 3}
-  damage: 5
+  damage: 25
   speed: 0
   cooldownDuration: 2.5
   pierce: 0
   level: 2
   nextLevelPrefab: {fileID: 2485240053497646230, guid: 37c905319f0b45e46b9ddc3b6a645981, type: 3}
   weaponName: Cuchilla nivel 2
-  weaponDescription: Reduce el cooldown en 0.5 segundos
+  weaponDescription: "+ Da\xF1o, - Cooldown"
   icon: {fileID: 797452239, guid: 06b7b3969a55b574a8d036ef0cfce1c7, type: 3}

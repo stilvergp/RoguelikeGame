@@ -14,7 +14,6 @@ public class PlayerStats : MonoBehaviour
     float currentRecovery;
     float currentMoveSpeed;
     float currentMight;
-    float currentProjectileSpeed;
     float currentMagnet;
 
     #region Current Stats Properties
@@ -85,22 +84,6 @@ public class PlayerStats : MonoBehaviour
         }
     }
 
-    public float CurrentProjectileSpeed
-    {
-        get { return currentProjectileSpeed; }
-        set
-        {
-            if (currentProjectileSpeed != value)
-            {
-                currentProjectileSpeed = value;
-                if (GameManager.instance != null)
-                {
-                    GameManager.instance.currentProjectileSpeedDisplay.text = "Velocidad de proyectil: " + currentProjectileSpeed;
-                }
-            }
-        }
-    }
-
     public float CurrentMagnet
     {
         get { return currentMagnet; }
@@ -147,7 +130,6 @@ public class PlayerStats : MonoBehaviour
         GameManager.instance.currentRecoveryDisplay.text = "Recuperación de vida por segundo: " + currentRecovery;
         GameManager.instance.currentMoveSpeedDisplay.text = "Velocidad de movimiento: " + currentMoveSpeed;
         GameManager.instance.currentMightDisplay.text = "Poder: " + currentMight;
-        GameManager.instance.currentProjectileSpeedDisplay.text = "Velocidad de proyectil: " + currentProjectileSpeed;
         GameManager.instance.currentMagnetDisplay.text = "Radio de imán: " + currentMagnet;
 
         GameManager.instance.AssignChosenCharacterUI(characterData);
@@ -182,7 +164,6 @@ public class PlayerStats : MonoBehaviour
         CurrentRecovery = characterData.Recovery;
         CurrentMoveSpeed = characterData.MoveSpeed;
         CurrentMight = characterData.Might;
-        CurrentProjectileSpeed = characterData.ProjectileSpeed;
         CurrentMagnet = characterData.Magnet;
 
         SpawnWeapon(characterData.StartingWeapon);

@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9548b2a1dbf284440a896eb841adfd59, type: 3}
   m_Name: Spinach Passive Item
   m_EditorClassIdentifier: 
-  multiplier: 100
+  multiplier: 25
   level: 1
   nextLevelPrefab: {fileID: 3626845926916322502, guid: deed4c074e1eff2488f2af4de38da023, type: 3}
   passiveItemName: Espinacas
-  passiveItemDescription: Aumenta el poder en un 100%
+  passiveItemDescription: Aumenta el poder en un 25%
   icon: {fileID: 21300000, guid: c1a5c33a46b734a4bbb26a6e23afdada, type: 3}

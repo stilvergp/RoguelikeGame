@@ -93,7 +93,7 @@ public class MapController : MonoBehaviour
         {
             if (direction.x > 0.5f)
             {
-                return direction.y > 0 ? "Right Up" : "Rigth Down";
+                return direction.y > 0 ? "Right Up" : "Right Down";
             }
             else if (direction.x < -0.5f)
             {
