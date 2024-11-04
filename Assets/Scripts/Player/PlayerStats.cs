@@ -29,7 +29,7 @@ public class PlayerStats : MonoBehaviour
             if (currentHealth != value)
             {
                 currentHealth = value;
-                if(GameManager.instance != null)
+                if (GameManager.instance != null)
                 {
                     GameManager.instance.currentHealthDisplay.text = "Vida: " + currentHealth;
                 }
@@ -45,7 +45,7 @@ public class PlayerStats : MonoBehaviour
             if (currentRecovery != value)
             {
                 currentRecovery = value;
-                if(GameManager.instance != null)
+                if (GameManager.instance != null)
                 {
                     GameManager.instance.currentRecoveryDisplay.text = "Recuperación de vida por segundo: " + currentRecovery;
                 }
@@ -61,7 +61,7 @@ public class PlayerStats : MonoBehaviour
             if (currentMoveSpeed != value)
             {
                 currentMoveSpeed = value;
-                if(GameManager.instance != null)
+                if (GameManager.instance != null)
                 {
                     GameManager.instance.currentMoveSpeedDisplay.text = "Velocidad de movimiento: " + currentMoveSpeed;
                 }
@@ -77,7 +77,7 @@ public class PlayerStats : MonoBehaviour
             if (currentMight != value)
             {
                 currentMight = value;
-                if(GameManager.instance != null)
+                if (GameManager.instance != null)
                 {
                     GameManager.instance.currentMightDisplay.text = "Poder: " + currentMight;
                 }
@@ -93,7 +93,7 @@ public class PlayerStats : MonoBehaviour
             if (currentProjectileSpeed != value)
             {
                 currentProjectileSpeed = value;
-                if(GameManager.instance != null)
+                if (GameManager.instance != null)
                 {
                     GameManager.instance.currentProjectileSpeedDisplay.text = "Velocidad de proyectil: " + currentProjectileSpeed;
                 }
@@ -109,7 +109,7 @@ public class PlayerStats : MonoBehaviour
             if (currentMagnet != value)
             {
                 currentMagnet = value;
-                if(GameManager.instance != null)
+                if (GameManager.instance != null)
                 {
                     GameManager.instance.currentMagnetDisplay.text = "Radio de imán: " + currentMagnet + " metros";
                 }
@@ -192,9 +192,9 @@ public class PlayerStats : MonoBehaviour
     public void IncreaseExperience(int amount)
     {
         experience += amount;
-        
+
         LevelUpChecker();
-        
+
         UpdateExpBar();
     }
 
@@ -213,7 +213,7 @@ public class PlayerStats : MonoBehaviour
 
     void UpdateExpBar()
     {
-        expBar.fillAmount = (float) experience / experienceCap;
+        expBar.fillAmount = (float)experience / experienceCap;
     }
 
     void UpdateLevelText()
@@ -248,7 +248,7 @@ public class PlayerStats : MonoBehaviour
     public void Kill()
     {
         animator.SetTrigger("Die");
-        if(!GameManager.instance.isGameOver)
+        if (!GameManager.instance.isGameOver)
         {
             GameManager.instance.AssignLevelReachedUI(level);
             GameManager.instance.AssignChosenWeaponsAndPassiveItemsUI(inventory.weaponUISlots, inventory.passiveItemUISlots);
@@ -266,6 +266,8 @@ public class PlayerStats : MonoBehaviour
             {
                 CurrentHealth = characterData.MaxHealth;
             }
+
+            UpdateHealthBar();
         }
 
     }
@@ -280,6 +282,8 @@ public class PlayerStats : MonoBehaviour
             {
                 CurrentHealth = characterData.MaxHealth;
             }
+
+            UpdateHealthBar();
         }
     }
 
